@@ -1,0 +1,57 @@
+name: adswiztest
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+    sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+    flutter:
+        sdk: flutter
+
+    cupertino_icons: ^1.0.2
+    #firebase
+    firebase_core: ^2.24.2
+    firebase_auth: ^4.16.0
+    firebase_messaging: ^14.7.10
+    # signin
+    google_sign_in: ^6.2.1
+    flutter_facebook_auth: ^4.4.1
+    twitter_login: ^4.4.2
+    candlesticks: ^2.1.0
+    # reward ads
+    admob_flutter: ^3.0.0
+    facebook_audience_network: ^1.0.1
+    unity_ads_plugin: ^0.3.11
+    # divice id
+    device_uuid: ^0.0.4
+    device_information: ^0.0.4
+    # locale
+    language_code: ^0.4.0
+    # api connect
+    http: ^1.1.2
+    # dotenv
+    flutter_dotenv: ^5.1.0
+    # storage
+    shared_preferences: ^2.2.2
+    # rsa
+    simple_rsa3: ^2.0.2
+    encrypt: ^5.0.3
+    pointycastle: ^3.7.4
+    mz_rsa_plugin: ^0.0.4
+    rsa_encrypt: ^2.0.0
+
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+
+    flutter_lints: ^2.0.0
+
+flutter:
+    assets:
+        - assets/config/.env
+        - assets/config/public.pem
+    uses-material-design: true
